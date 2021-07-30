@@ -1,17 +1,17 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Beam",
+    subtitle: "iOS App: Swift,Machine Learning & Augmented Reality",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "A visual gym assistant that uses computer vision to help empower fitness enthusiasts",
+    image: "./beam.jpg",
+    link: "https://b3am.app",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "AliasMobs",
+    subtitle: "Swift, React Native and Firebase",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Event discovery app for students and young adults ",
     image: "./project-2.gif",
     link: "https://reactbootcamp.com",
   },
