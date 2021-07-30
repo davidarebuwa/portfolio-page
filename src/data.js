@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "iOS App: Swift,Machine Learning & Augmented Reality",
     description:
       "A visual gym assistant that uses computer vision to help empower fitness enthusiasts",
-    image: "./beam.jpg",
+    image: "./beamdemo.gif",
     link: "https://b3am.app",
   },
   {
@@ -12,8 +12,8 @@ export const projects = [
     subtitle: "Swift, React Native and Firebase",
     description:
       "Event discovery app for students and young adults ",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    image: "./logoA.png",
+    link: "https://aliasmobs.com",
   },
   {
     title: "DevChat",
