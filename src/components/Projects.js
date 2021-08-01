@@ -15,20 +15,26 @@ export default function Projects() {
           Love to create native apps using Swift, or web apps / experiences using React. I know my way around a backend as well, preferably using PHP.
           </p>
         </div>
-    
+
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-          <img class="w-full" src="../beam.jpg" alt="Mountain"/>
+        {projects.map((project) => (
+          <a
+            href={project.link}
+            key={project.image}
+          <img class="w-full" src={project.image} alt="gallery"/>
           <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Mountain</div>
+          <div class="font-bold text-xl mb-2">{project.title}</div>
           <p class="text-gray-700 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          {project.description}
           </p>
           </div>
           <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          {project.skills.map((skill) => (
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{skill}</span>
+          ))}
           </div>
+          </a>
+          ))}
         </div>
 
 

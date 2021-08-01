@@ -6,6 +6,7 @@ export const projects = [
       "A visual gym assistant that uses computer vision to help empower fitness enthusiasts",
     image: "./beam.jpg",
     link: "https://b3am.app",
+    skills = [ "Machine Learning", "Swift"],
   },
   {
     title: "AliasMobs",
@@ -14,22 +15,7 @@ export const projects = [
       "Event discovery app for students and young adults ",
     image: "./logoA.png",
     link: "https://aliasmobs.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    skills = [ "React Native", "Swift"],
   },
 ];
 
