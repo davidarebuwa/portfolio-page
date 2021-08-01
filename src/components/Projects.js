@@ -20,7 +20,7 @@ export default function Projects() {
         {projects.map((project) => (
           <a
             href={project.link}
-            key={project.image}
+            key={project.image}>
           <img class="w-full" src={project.image} alt="gallery"/>
           <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{project.title}</div>
