@@ -12,7 +12,10 @@ export const projects = [
       },
       {
         name: "Swift"
-    }
+    },
+    {
+      name: "Python"
+  }
   ],
   },
   {
@@ -28,6 +31,22 @@ export const projects = [
     },
       {
         name: "Swift"
+      },
+    ],
+  },
+  {
+    title: "Bubos Media",
+    subtitle: "Swift, React Native and Firebase",
+    description:
+      "Website for a marketing agency ",
+    image: "./buboslogo.png",
+    link: "https://bubosmedia.com",
+    skills : [
+      {
+      name: "Web Development"
+    },
+      {
+        name: "HTML"
       },
     ],
   },
@@ -52,9 +71,13 @@ export const testimonials = [
 
 export const skills = [
   "JavaScript",
+  "Swift",
   "React",
+  "Bootstrap",
+  "Netlify",
   "Next.js",
   "Node",
   "GraphQL",
   "Material UI",
+  "Firebase",
 ];
