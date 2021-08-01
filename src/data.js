@@ -6,7 +6,14 @@ export const projects = [
       "A visual gym assistant that uses computer vision to help empower fitness enthusiasts",
     image: "./beam.jpg",
     link: "https://b3am.app",
-    skills : [ "Machine Learning", "Swift"],
+    skills : [
+      {
+        name: "Machine Learning"
+      },
+      {
+        name: "Swift"
+    }
+  ],
   },
   {
     title: "AliasMobs",
@@ -15,7 +22,14 @@ export const projects = [
       "Event discovery app for students and young adults ",
     image: "./logoA.png",
     link: "https://aliasmobs.com",
-    skills = [ "React Native", "Swift"],
+    skills = [
+      {
+      name: "React Native"
+    },
+      {
+        name: "Swift"
+      },
+    ],
   },
 ];
 
