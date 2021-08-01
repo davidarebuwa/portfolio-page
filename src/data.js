@@ -22,7 +22,7 @@ export const projects = [
       "Event discovery app for students and young adults ",
     image: "./logoA.png",
     link: "https://aliasmobs.com",
-    skills = [
+    skills : [
       {
       name: "React Native"
     },
