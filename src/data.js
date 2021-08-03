@@ -81,3 +81,19 @@ export const skills = [
   "Material UI",
   "Firebase",
 ];
+
+
+export const links = [
+  {
+    image: "./linkedinicon.png",
+    url: "https://www.linkedin.com/in/david-bosun-arebuwa/",
+    class: "fab fa-linkedin",
+    name: "linkedIn",
+  },
+  {
+    image: "./githubicon.png",
+    url: "https://github.com/davidarebuwa",
+    class: "fab fa-github",
+    name: "github",
+  },
+];
