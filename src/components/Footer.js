@@ -2,21 +2,19 @@ import React from "react";
 import { links } from "../data";
 
 export default function Footer() {
-      var networks = links.map((link) => (
-        return (
-          <span key={link.name} className="m-4">
-            <a href={link.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
-            </a>
-          </span>
-        );
-      ));
-
 
     return (
       <footer>
         <div className="col-md-12">
-          <div className="social-links">{networks}</div>
+          <div className="social-links">
+          {links.map((link) => (
+          <span key={link.name} className="m-4">
+            <a href={link.url} target="_blank" rel="noopener noreferrer">
+              <i className={link.class}></i>
+            </a>
+          </span>
+          ))}
+          </div>
 
           <div className="copyright py-4 text-center">
             <div className="container">
