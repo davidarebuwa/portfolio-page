@@ -10,6 +10,7 @@ export default function Footer() {
           {links.map((link) => (
           <span key={link.name} className="m-4">
             <a href={link.url} target="_blank" rel="noopener noreferrer">
+             <img src={link.image} alt="icons"></img>
               <i className={link.class}></i>
             </a>
           </span>
